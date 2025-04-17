@@ -3,66 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Baixe gratuitamente o eBook 15 Receitas Seca Barriga e comece sua transformação agora!">
-  <meta name="keywords" content="receitas fitness, emagrecimento, ebook gratuito, seca barriga, alimentação saudável">
-  <meta name="author" content="Seu Nome">
-
+  <meta name="description" content="Baixe gratuitamente o eBook com 15 Receitas Poderosas para Secar a Barriga e veja a oferta especial logo após!">
+  <meta name="keywords" content="emagrecimento, receitas secar barriga, eBook grátis, plano de alimentação, perda de peso">
+  <meta name="author" content="user2345-pixel">
   <title>15 Receitas Seca Barriga - eBook Grátis</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #f5f5f5;
-      padding: 40px 20px;
-      font-family: 'Helvetica Neue', sans-serif;
-      text-align: center;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #f0fff0, #e0f7e9);
+      margin: 0;
+      padding: 0;
     }
     .container {
       max-width: 600px;
-      margin: auto;
-      background: #fff;
+      margin: 60px auto;
+      background-color: #fff;
       padding: 30px;
-      border-radius: 16px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      text-align: center;
     }
     img {
-      max-width: 100%;
-      border-radius: 12px;
+      width: 100%;
+      border-radius: 16px;
     }
     h1 {
       color: #2c7a1f;
-      font-size: 2.2rem;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #444;
+      font-size: 1.3rem;
       margin-bottom: 20px;
     }
-    p {
-      font-size: 1.1rem;
-      margin-bottom: 30px;
+    ul {
+      text-align: left;
+      margin: 20px 0;
+      padding: 0;
     }
-    .botao-baixar {
+    li {
+      list-style: none;
+      padding-left: 1em;
+      margin-bottom: 10px;
+      position: relative;
+    }
+    li::before {
+      content: "✔";
+      color: #2c7a1f;
+      position: absolute;
+      left: 0;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 28px;
       background-color: #2c7a1f;
       color: white;
-      padding: 14px 28px;
-      font-size: 1rem;
-      border-radius: 8px;
       text-decoration: none;
-      transition: 0.3s;
+      font-size: 1rem;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
     }
-    .botao-baixar:hover {
+    .cta:hover {
       background-color: #256619;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Baixe o eBook <br>15 Receitas Seca Barriga</h1>
-    <img src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/imagens/0de3d676-69b8-4023-b933-3a73d8a32a89.png" alt="Capa do eBook 15 Receitas Seca Barriga" loading="lazy" />
-    <p>Receitas fáceis, saudáveis e comprovadas para acelerar seu emagrecimento e desinchar de forma natural. Garantia de 7 dias para testar!</p>
-    <a class="botao-baixar" href="link-para-o-download-do-ebook.pdf" target="_blank">Baixar Agora</a>
+    <h1>Transforme Seu Corpo com 15 Receitas Poderosas</h1>
+    <h2>Mais de 10.000 pessoas já começaram a emagrecer com essas receitas fáceis e naturais!</h2>
+    <img src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/imagens/0de3d676-69b8-4023-b933-3a73d8a32a89.png" alt="Capa do eBook" loading="lazy">
+    <ul>
+      <li>Queime gordura enquanto dorme</li>
+      <li>Receitas práticas para o dia a dia</li>
+      <li>Veja resultados em apenas 3 dias</li>
+      <li>Comprovado por nutricionistas</li>
+    </ul>
+    <a class="cta" href="ebook.pdf" onclick="setTimeout(() => { window.location.href = 'oferta.html'; }, 200);">Baixar Agora</a>
   </div>
-
-  <!-- Script leve opcional -->
-  <script defer>
-    console.log('Site carregado com sucesso!');
-  </script>
 </body>
 </html>
