@@ -13,69 +13,6 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '1668895330427835');
 fbq('track', 'PageView');
-  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', '1668895330427835'); // Seu ID do Pixel
-
-// Eventos que disparam no carregamento da página
-fbq('track', 'PageView');
-fbq('track', 'ViewContent');
-</script>
-<noscript>
-  <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1668895330427835&ev=PageView&noscript=1" />
-</noscript>
-
-<!-- Eventos acionados por interações - este script pode ficar no final do <body> -->
-<script>
-// Evento AddToCart - clique no botão "Adicionar ao carrinho"
-document.getElementById('id-botao-adicionar').addEventListener('click', function() {
-  fbq('track', 'AddToCart');
-});
-
-// Evento InitiateCheckout - clique no botão "Iniciar checkout"
-document.getElementById('id-botao-checkout').addEventListener('click', function() {
-  fbq('track', 'InitiateCheckout');
-});
-
-// Evento Purchase - no thank you page (confirmação da compra)
-// Substitua 123.45 e 'BRL' pelos valores reais da transação no seu site
-fbq('track', 'Purchase', {
-  value: 123.45,
-  currency: 'BRL'
-});
-
-// Evento AddPaymentInfo - quando inserir dados de pagamento
-fbq('track', 'AddPaymentInfo');
-
-// Evento CompleteRegistration - cadastro finalizado
-fbq('track', 'CompleteRegistration');
-
-// Evento Lead - após envio de formulário de lead
-fbq('track', 'Lead');
-
-// Evento Search - ao realizar busca no site
-fbq('track', 'Search');
-
-// Evento Contact - clique no botão de contato (telefone, chat, etc)
-document.getElementById('id-botao-contato').addEventListener('click', function() {
-  fbq('track', 'Contact');
-});
-
-// Evento AddToWishlist - clique no botão "Adicionar à lista de desejos"
-document.getElementById('id-botao-desejos').addEventListener('click', function() {
-  fbq('track', 'AddToWishlist');
-});
-</script>
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1668895330427835&ev=PageView&noscript=1"
